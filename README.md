@@ -1,10 +1,5 @@
-How To Compile Using Ubuntu WSL.
+## 🛠️ How to Compile Using Ubuntu WSL
 
-
-Normal: g++ [filename.cpp] -o [filename]
-
-
-Kernel: nvc++ -acc=host Kernel.cpp -o Kernel
-
-
-GPU: nvc++ -acc=gpu -gpu=cc86 GPU.cpp -o Gpu
+### ✅ 1. Compile with Normal C++ Compiler (CPU Sequential Version)
+```bash
+g++ Main.cpp -o Main
