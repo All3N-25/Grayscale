@@ -2,7 +2,7 @@
 
 ### ✅ 1. Compile with Normal C++ Compiler (CPU Sequential Version)
 ```bash
-g++ Main.cpp -o Main
+g++ Normal.cpp -o Normal
 ```
 ### ✅ 2. Compile with OpenACC for Host (CPU Parallel Version)
 ```bash
